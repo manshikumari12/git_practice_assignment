@@ -1,8 +1,15 @@
+
+
+let num=56;
 let count=0;
-for(let i=0;i<n;i++){
-if(i%2==0){
+for(let i=0;i<=n;i++){
+if(n%2==0){
 console.log(arr[i])
 count++;
 }
-if(i
+if(count==2){
+console.log("Yes");
+else{
+console.log("No");
+}
 
